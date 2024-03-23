@@ -35,7 +35,7 @@ Before proceeding with the setup, ensure the device meets the following requirem
 - Necessary system libraries should be installed before building or installing Meshtastic.
 
 ```shell
-sudo apt install libgpiod-dev libyaml-cpp-dev
+sudo apt install libbluetooth-dev libgpiod-dev libyaml-cpp-dev
 ```
 - And optionally for web server support
 ```shell
@@ -94,14 +94,18 @@ Webserver:
 
 ### GPS Support
 
-- Enabling UART for GPS hats on Pi5 requires modifications in `/boot/firmware/config.txt`:
+- Enabling UART for GPS hats requires modifications in `/boot/firmware/config.txt`:
 
 ```plaintext
 enable_uart=1
+```
+- The Pi 5 requires an extra modification:
+
+```plaintext
 dtoverlay=uart0
 ```
 
-The correct port for UART GPS after a reboot is `/dev/ttyAMA0`.
+The correct port for UART GPS after a reboot is `/dev/ttyS0` for Raspberry Pi zero, zero 2 , 3,4, Pi 400. The correct port for Pi 5 is `/dev/ttyAMA0`.
 
 ### Persistence
 
