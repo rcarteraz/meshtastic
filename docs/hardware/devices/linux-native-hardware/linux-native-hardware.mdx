@@ -12,7 +12,7 @@ This guide outlines the setup of Meshtastic on Linux-native devices, utilizing p
 Before proceeding with the setup, ensure the device meets the following requirements:
 
 ### Tested Devices
-- Raspberry Pi zero, zero 2 , 3,4, Pi 400, and Pi 5.[^1]
+- Raspberry Pi zero, zero 2, 3, 4, Pi 400, and Pi 5.[^1]
 - Ubuntu 22.04 X86_64 with a CH341-SX1262 DIY dongle.[^2]
 - Debian GNU/Linux trixie/sid riscv64 on Cvitek CV180X ASIC, C906 (Milk-V Duo), on the SPI bus.
 
@@ -105,7 +105,8 @@ enable_uart=1
 dtoverlay=uart0
 ```
 
-The correct port for UART GPS after a reboot is `/dev/ttyS0` for Raspberry Pi zero, zero 2 , 3,4, Pi 400. The correct port for Pi 5 is `/dev/ttyAMA0`.
+The correct port for UART GPS after a reboot is `/dev/ttyS0` for Raspberry Pi zero, zero 2, 3, 4, Pi 400. 
+The correct port for Pi 5 is `/dev/ttyAMA0`.
 
 ### Persistence
 
