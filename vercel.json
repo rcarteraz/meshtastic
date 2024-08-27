@@ -72,6 +72,46 @@
     {
       "source": "/docs/",
       "destination": "/docs/introduction/"
+    },
+    {
+      "source": "/docs/hardware/lora/",
+      "destination": "/docs/hardware/lilygo/lora/"
+    },
+    {
+      "source": "/docs/hardware/tbeam/",
+      "destination": "/docs/hardware/lilygo/tbeam/"
+    },
+    {
+      "source": "/docs/hardware/twatch/",
+      "destination": "/docs/hardware/lilygo/twatch/"
+    },
+    {
+      "source": "/docs/hardware/tdeck/",
+      "destination": "/docs/hardware/lilygo/tdeck/"
+    },
+    {
+      "source": "/docs/hardware/techo/",
+      "destination": "/docs/hardware/lilygo/techo/"
+    },
+    {
+      "source": "/docs/hardware/lora/:path*/",
+      "destination": "/docs/hardware/lilygo/lora/:path*/"
+    },
+    {
+      "source": "/docs/hardware/tbeam/:path*/",
+      "destination": "/docs/hardware/lilygo/tbeam/:path*/"
+    },
+    {
+      "source": "/docs/hardware/twatch/:path*/",
+      "destination": "/docs/hardware/lilygo/twatch/:path*/"
+    },
+    {
+      "source": "/docs/hardware/tdeck/:path*/",
+      "destination": "/docs/hardware/lilygo/tdeck/:path*/"
+    },
+    {
+      "source": "/docs/hardware/techo/:path*/",
+      "destination": "/docs/hardware/lilygo/techo/:path*/"
     }
   ]
 }
