@@ -112,6 +112,30 @@
     {
       "source": "/docs/hardware/techo/:path*/",
       "destination": "/docs/hardware/lilygo/techo/:path*/"
+    },
+    {
+      "source": "/rak/",
+      "destination": "/rak-wireless/"
+    },
+    {
+      "source": "/rak/:path*/",
+      "destination": "/rak-wireless/:path*/"
+    },
+    {
+      "source": "/docs/hardware/devices/rak/",
+      "destination": "/docs/hardware/devices/rak-wireless/"
+    },
+    {
+      "source": "/docs/hardware/devices/rak/:path*/",
+      "destination": "/docs/hardware/devices/rak-wireless/:path*/"
+    },
+    {
+      "source": "/docs/hardware/rak/",
+      "destination": "/docs/hardware/rak-wireless/"
+    },
+    {
+      "source": "/docs/hardware/rak/:path*/",
+      "destination": "/docs/hardware/rak-wireless/:path*/"
     }
   ]
 }
